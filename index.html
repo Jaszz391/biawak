@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Logo Bisawak Keren</title>
+<style>
+  body {
+    background: #1a1a1a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+  }
+
+  .logo-container {
+    text-align: center;
+    background: linear-gradient(135deg, #2e8b57, #3cb371);
+    padding: 40px 60px;
+    border-radius: 30px;
+    box-shadow: 0 0 25px #3cb371aa;
+    max-width: 350px;
+  }
+
+  .icon {
+    font-size: 100px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  /* Buat bentuk sederhana komodo pakai CSS */
+  .icon::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 40px;
+    background: #2f4f4f;
+    border-radius: 50% 50% 40% 40% / 100% 100% 80% 80%;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    box-shadow:
+      30px 0 #2f4f4f,
+      10px 30px #2f4f4f,
+      40px 30px #2f4f4f,
+      0 15px 0 5px #6b8e23 inset;
+  }
+
+  h1 {
+    margin: 0 0 15px 0;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #d4f1d4;
+  }
+</style>
+</head>
+<body>
+  <div class="logo-container">
+    <div class="icon" title="Bisawak Komodo"></div>
+    <h1>Bisawak</h1>
+    <p>Reptil raksasa asli Indonesia, dikenal juga sebagai komodo, pemangsa handal dengan lidah bercabang khas.</p>
+  </div>
+</body>
+</html>
